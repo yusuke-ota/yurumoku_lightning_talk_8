@@ -73,6 +73,10 @@ Unityのプロファイラの使い方、見方を話します。
 
 ---
 
+### GPUプロファイリング設定
+
+---
+
 ### プロファイラの見方
 
 ---
@@ -178,6 +182,8 @@ todo: いい感じのカリング前後のOverDraw写真追加
 
 ### バッチング
 
+バッチ(CPUからGPUに出す命令)にまとめる作業
+
 * 静的バッチング
 * 動的バッチング
 * GPUインスタンシング
@@ -221,7 +227,9 @@ todo: 画像
 
 #### マテリアル結合
 
-[Mesh Baker](https://assetstore.unity.com/packages/tools/modeling/mesh-baker-5017)を使おう
+[Mesh Baker](https://assetstore.unity.com/packages/tools/modeling/mesh-baker-5017)
+[Mesh Baker Free](https://assetstore.unity.com/packages/tools/modeling/mesh-baker-free-31895?locale=ja-JP)
+を使おう
 
 ---
 
@@ -229,7 +237,7 @@ todo: 画像
 
 #### 頂点シェーダー
 
-頂点に作用するシェーダー
+頂点に作用する(≒形状に作用する)シェーダー
 頂点数が多いほど(≒ハイポリなほど)処理に時間がかかる
 画面内ではどんなに小さくても関係ない
 
@@ -258,6 +266,7 @@ todo: 図
 ### RenderDoc
 
 レンダリングのどの処理がどのくらい時間がかかっているのかわかるすごいやつ
+ProfilerのGPUプロファイリングをオンにすると、ある程度は同じことができる
 
 todo: 画像
 
