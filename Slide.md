@@ -236,8 +236,8 @@ todo: 画像
 
 複数のテクスチャをまとめて一つのテクスチャにすること
 
-* 同じマテリアルを使っている
-* でもテクスチャが違うからバッチングされない
+* 同じ設定のマテリアルを使っている
+* でもテクスチャが違うから完全に同じマテリアルにできない
 
 といったときに使うと良い(最適化の最終段階で)
 
@@ -245,8 +245,7 @@ todo: 画像
 
 #### マテリアル結合
 
-[Mesh Baker](https://assetstore.unity.com/packages/tools/modeling/mesh-baker-5017)
-[Mesh Baker Free](https://assetstore.unity.com/packages/tools/modeling/mesh-baker-free-31895?locale=ja-JP)
+[Mesh Baker](https://assetstore.unity.com/packages/tools/modeling/mesh-baker-5017)、[Mesh Baker Free](https://assetstore.unity.com/packages/tools/modeling/mesh-baker-free-31895?locale=ja-JP)
 を使おう
 
 ---
@@ -258,6 +257,8 @@ todo: 画像
 頂点に作用する(≒形状に作用する)シェーダー
 頂点数が多いほど(≒ハイポリなほど)処理に時間がかかる
 画面内ではどんなに小さくても関係ない
+
+大体は、座標変換くらいしかしない(そんなに重くない)
 
 ---
 
@@ -273,11 +274,22 @@ todo: 図
 
 ---
 
+#### ジオメトリシェーダー
+
+ポリゴンに作用するシェーダー
+パーティクル以外のかっこいいエフェクトとかは大体これ
+
+全然使ったことないので何も分からない
+
+---
+
 #### フラグメントシェーダー
 
 画面に対して作用するシェーダー
-画面の画素数 × 画面に占める割合
+画面の画素数 × 画面に占める割合 に比例して処理に時間がかかる
 画面内で小さいほど処理に時間がかからない
+
+色を塗ったりする
 
 ---
 
