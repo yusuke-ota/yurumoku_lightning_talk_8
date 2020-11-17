@@ -65,31 +65,31 @@ Unityのプロファイラの使い方、見方を話します。
 
 ### 1-1. プロファイラ起動
 
-<!-- プロファイラはここから開ける -->
+![OpenProfiler](Images/OpenProfiler.png)
 
 ---
 
 ### 1-2. プロファイリング開始
 
-<!-- プロファイラの操作方法 -->
+![StartLoging](Images/StartLoging.png)
 
 ---
 
 ### 1-3. GPUプロファイリング設定
 
-<!-- GPUのプロファイリングの設定方法 -->
+![GPULoging](Images/GPULoging.png)
 
 ---
 
 ### 1-4. プロファイラの見方
 
-<!-- プロファイラの見方を解説 -->
+![Profiler](Images/Profiler.png)
 
 ---
 
 ### 1-5.グラフィックの処理に時間がかかっている様子
 
-<!-- グラフィックに時間がかかっている様子 -->
+![HeavyRendering](./Images/HeavyRenderer.png)
 
 プロファイラ関係はこれがわかりやすい
 [パフォーマンスの計測 再入門 〜Unity 2020版〜(5月28日号) - Unityステーション](https://www.youtube.com/watch?v=UZ2sLiAM0oE&list=PLFw9ryLdiLzZrglM9EATbH5kb46r736Et&index=41)
@@ -240,7 +240,7 @@ Build-inでの具体的な主なタイミングは、
 
 #### 2-5-5. FrameDebuggerでバッチングされない原因を見てみる
 
-todo: 画像
+![NotBatched](Images/NotBatched.png)
 
 ---
 
@@ -310,7 +310,7 @@ todo: 図
 レンダリングのどの処理がどのくらい時間がかかっているのかわかるすごいやつ
 ProfilerのGPUプロファイリングをオンにすると、ある程度は同じことができる
 
-todo: 画像
+![RenderDoc](Images/RenderDoc.png)
 
 ---
 
