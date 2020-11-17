@@ -223,12 +223,15 @@ todo: いい感じのカリング前後のOverDraw写真追加
 主な原因は**Set Pass Call**
 (使用するデータが変わる時、CPUからGPUにデータを送る処理)
 
-Build-inでの具体的なタイミングは、
+Build-inでの具体的な主なタイミングは、
 
 * 使うマテリアルが替わる時
 * 使うシェーダーが替わる時
 * 使うテクスチャが替わる時
 * 使うライトマップが替わる時(ライトベイク時)
+
+英語、ちょっと古いが、条件が詳しく書いてある。
+[How to see why your draw calls are not batched in 5.6](https://blogs.unity3d.com/2017/04/03/how-to-see-why-your-draw-calls-are-not-batched-in-5-6/)
 
 注: SRPは使うシェーダーが替わる時のみ
 <https://blogs.unity3d.com/jp/2019/02/28/srp-batcher-speed-up-your-rendering/>
@@ -346,3 +349,4 @@ todo: 画像
 ## 参考文献
 
 * "Chris Dickinson 著, 佐藤 敬 訳", "Unity 2017最適化ガイド: Unityのあらゆるパフォーマンス問題を解決するための手引き", 株式会社達人出版会, 2020-5
+* Unity ユーザーマニュアル <https://docs.unity3d.com/ja/2019.4/Manual/UnityManual.html>
