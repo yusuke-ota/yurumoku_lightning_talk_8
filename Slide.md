@@ -83,7 +83,7 @@ Unityのプロファイラの使い方、見方を話します。
 
 ### 1-4. プロファイラの見方
 
-![Profiler](Images/Profiler.png)
+![h:600 Profiler](Images/Profiler.png)
 
 ---
 
@@ -126,8 +126,7 @@ Unityのプロファイラの使い方、見方を話します。
 
 #### 2-2-2. 処理
 
-todo: 画像
-<!-- FrameDebuggerでどの処理が何にあたるのか軽く解説 -->
+![RenderProcess](Images/RenderProcess.png)
 
 ---
 
@@ -237,7 +236,7 @@ Build-inでの具体的なタイミングは、
 
 #### 2-5-5. FrameDebuggerでバッチングされない原因を見てみる
 
-![NotBatched](Images/NotBatched.png)
+![NotBatched](Images/WhyNotBatch.png)
 
 ---
 
@@ -276,7 +275,7 @@ Build-inでの具体的なタイミングは、
 距離に応じて、モデルを切り替える機能
 モデルは個別に準備が必要
 
-todo: 図
+![h:400 LOD](Images/LOD.png)
 
 このページが分かりやすいと思う。
 [【Unity】LODで負荷を軽減させて60FPSを死守する - おもちゃラボ](https://nn-hokuson.hatenablog.com/entry/2017/03/21/200013)
@@ -307,7 +306,7 @@ todo: 図
 レンダリングのどの処理がどのくらい時間がかかっているのかわかるすごいやつ
 ProfilerのGPUプロファイリングをオンにすると、ある程度は同じことができる
 
-![RenderDoc](Images/RenderDoc.png)
+![h:500 RenderDoc](Images/RenderDoc.png)
 
 ---
 
