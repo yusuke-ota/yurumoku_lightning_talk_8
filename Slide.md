@@ -184,7 +184,7 @@ todo: 余裕があったら図作成
 
 #### 2-4-3. オクルージョンカリング2
 
-todo: いい感じのカリング前後のOverDraw写真追加
+![h:500 culling](Images/Culling.png)
 
 ---
 
